@@ -1,0 +1,9 @@
+debug/
+release/
+build/
+cscope.files
+cscope.out
+GPATH
+GRTAGS
+GTAGS
+.clang_complete
