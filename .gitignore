@@ -1,6 +1,7 @@
 debug/
 release/
 build/
+pic/
 cscope.files
 cscope.out
 GPATH
