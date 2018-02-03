@@ -8,6 +8,7 @@
 #include <algorithm>
 #include <map>
 #include <fstream>
+#include <limits>
 
 #include <boost/filesystem.hpp>
 #include <opencv2/highgui.hpp>

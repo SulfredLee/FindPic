@@ -100,6 +100,12 @@ void FindPicEngine::DoCompare(){
         // do compare
         double dCorrelation = 0;
         for(int nCompareMethod = 0; nCompareMethod < 4; nCompareMethod++){
+            if(nCompareMethod == 0 || nCompareMethod == 2){
+                dCorrelation = std::numeric_limits<double>::min();
+            }
+            else{
+                dCorrelation = std::numeric_limits<double>::max();
+            }
             for(size_t j = 0; j < m_vecHistTarget.size(); j++){
                 if(nCompareMethod == 0 || nCompareMethod == 2){
                     dCorrelation = std::max(dCorrelation, cv::compareHist(m_vecHistTarget[j], HistTemp, nCompareMethod));
