@@ -2,6 +2,9 @@ debug/
 release/
 build/
 pic/
+pic_face/
+target_origin/
+target_big/
 cscope.files
 cscope.out
 GPATH
